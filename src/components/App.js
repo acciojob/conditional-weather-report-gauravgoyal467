@@ -1,11 +1,13 @@
 
 import React from "react";
 import './../styles/App.css';
+import Weather from "./Weather";
 
+const weatherData={temperature: 25, conditions: "Sunny"}
 const App = () => {
   return (
     <div>
-        {/* Do not remove the main div */}
+       <Weather data={weatherData}/>
     </div>
   )
 }
