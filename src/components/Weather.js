@@ -16,7 +16,7 @@ const Weather = ({data}) => {
   return (
     <div className="container">
         <p>Temperature: {data.temperature}</p>
-        <p>{data.conditions}</p>
+        <span>{data.conditions}</span>
     </div>
   )
 }
